@@ -1,10 +1,14 @@
+import React from 'react';
+import Gallery from './Gallery'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
-  );
+    <>
+    <h1 className="mainH1" style={{textAlign: 'center'}}>Image Gallery</h1>
+    <Gallery />
+    </>
+    );
 }
 
 export default App;
